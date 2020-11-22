@@ -1,29 +1,35 @@
 #!/bin/bash
 
-# Define the version of your qcow2 images
+
+
+# ------------------------------
+
+# Define Variables for version and path
+
+# 		Define the version of your qcow2 images
 
 Ver="3.4.3"
 
-# Define the location of your qcow2 images, place them in your home folder like below:
+# 		Define the location of your qcow2 images, place them in your home folder like below:
 #
-# root@eve-comm-vm:~/velo3.4.3# ls -l --recursiv
-# 
-#  ~/velo3.4.3/veloedge
-#       virtioa.qcow2
-#
-#  ~/velo3.4.3/velogw
-#       virtioa.qcow2
-#
-#  ~/velo3.4.3/veloorch
-#       virtioa.qcow2
-#       virtiob.qcow2
-#       virtioc.qcow2
+# 		root@eve-comm-vm:~/velo3.4.3# ls -l --recursiv
+# 		
+# 		 ~/velo3.4.3/veloedge
+# 		      virtioa.qcow2
+#		
+# 		 ~/velo3.4.3/velogw
+# 		      virtioa.qcow2
+#		
+# 		 ~/velo3.4.3/veloorch
+# 		      virtioa.qcow2
+# 		      virtiob.qcow2
+# 		      virtioc.qcow2
 
-OrchSrcPath="~/velo$Ver/veloorch"
-GWSrcPath="~/velo$Ver/velogw"
-EdgeSrcPath="~/velo$Ver/veloedge"
+OrchSrcPath="~/velo3.4.3/veloorch"
+GWSrcPath="~/velo3.4.3/velogw"
+EdgeSrcPath="~/velo3.4.3/veloedge"
 
-# End of Configuration
+# End of Variables
 
 # ------------------------------
 
