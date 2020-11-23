@@ -42,8 +42,8 @@ mkdir /opt/unetlab/addons/qemu/template-veloedge-$Ver
 # Copy qcow2 files into the template directory
 
 cp $OrchSrcPath/*.qcow2 /opt/unetlab/addons/qemu/template-veloorch-$Ver/
-cp $GWSrcPath/*.qcow2 /opt/unetlab/addons/qemu/template-veloorch-$Ver/
-cp $EdgeSrcPath/*.qcow2 /opt/unetlab/addons/qemu/template-veloorch-$Ver/
+cp $GWSrcPath/*.qcow2 /opt/unetlab/addons/qemu/template-velogw-$Ver/
+cp $EdgeSrcPath/*.qcow2 /opt/unetlab/addons/qemu/template-veloedge-$Ver/
 
 # Build each image by:
 #  - symlinking the files from the template directory
