@@ -10,24 +10,24 @@
 
 Ver="3.4.3"
 
-# 		Define the location of your qcow2 images, place them in your home folder like below:
+# 		Define the location of your qcow2 images, place them in your /tmp folder like below:
 #
-# 		root@eve-comm-vm:~/velo3.4.3# ls -l --recursiv
+# 		root@eve-comm-vm:/tmp# ls -l --recursiv
 # 		
-# 		 ~/velo3.4.3/veloedge
+# 		 /tmp/velo3.4.3/veloedge
 # 		      virtioa.qcow2
 #		
-# 		 ~/velo3.4.3/velogw
+# 		 /tmp/velo3.4.3/velogw
 # 		      virtioa.qcow2
 #		
-# 		 ~/velo3.4.3/veloorch
+# 		 /tmp/velo3.4.3/veloorch
 # 		      virtioa.qcow2
 # 		      virtiob.qcow2
 # 		      virtioc.qcow2
 
-OrchSrcPath="~/velo3.4.3/veloorch"
-GWSrcPath="~/velo3.4.3/velogw"
-EdgeSrcPath="~/velo3.4.3/veloedge"
+OrchSrcPath="/tmp/velo3.4.3/veloorch"
+GWSrcPath="/tmp/velo3.4.3/velogw"
+EdgeSrcPath="/tmp//velo3.4.3/veloedge"
 
 # End of Variables
 
